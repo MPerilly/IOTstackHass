@@ -1,3 +1,5 @@
+# Definitions for groups of individual light entities (i.e. 
+# group of recessed bulbs in the kitchen, as defined in config)
 - platform: group
   name: LR Lamp Lights
   entities:

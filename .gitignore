@@ -1,0 +1,9 @@
+hassConf/config/secrets.yaml
+hassConf/config/*.log
+hassConf/config/www
+hassConf/config/custom_components
+hassConf/config/deps
+hassConf/config/blueprints
+hassConf/config/tts
+.*
+!.gitignore

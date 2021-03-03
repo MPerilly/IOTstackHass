@@ -1,17 +1,55 @@
+# Customizations (names, icons, etc.) for groups (group.*,
+# representing rooms) of entities (*.entity_id). 
+# Entities are listed below the group they are in, and groups 
+# are separated by two returns.
+
+group.Kitchen_group:
+  control: hidden
+
 light.kitchen_ceiling_lights:
   friendly_name: "Ceiling Lights"
   icon: mdi:lightbulb-group-outline
+
+
+group.LR_group:
+  control: hidden
+
 light.lr_lamp_lights:
   friendly_name: "Lamp Lights"
   icon: mdi:lightbulb-group-outline
+
+group.DR_group:
+  control: hidden
+
 light.dr_lamp_light:
   friendly_name: "Lamp Light"
   icon: mdi:lightbulb-outline
 
 
-group.Kitchen_group:
+group.Bedroom_group:
   control: hidden
-group.LR_group:
+
+light.philips_lst002_3e53a003_level_light_color_on_off:
+  friendly_name: "Behind TV Light"
+  icon: mdi:led-strip-variant
+switch.sonoff_s31_lite_zb_0f636a22_on_off:
+  friendly_name: "Mike's Side Lights"
+  icon: mdi:floor-lamp
+switch.sonoff_s31_lite_zb_4b7e6a22_on_off:
+  friendly_name: "Ari's Side Lights"
+  icon: mdi:floor-lamp
+
+
+group.Office_group:
   control: hidden
-group.DR_group:
-  control: hidden
+
+light.philips_lct016_5244f203_level_light_color_on_off:
+  friendly_name: "Overhead Light"
+  icon: mdi:lightbulb-outline
+
+
+
+
+
+
+
