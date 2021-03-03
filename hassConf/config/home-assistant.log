@@ -1,2 +1,0 @@
-2021-03-03 10:52:46 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
-2021-03-03 10:53:04 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.soft_white_hue_3_level_on_off
