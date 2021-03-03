@@ -1,0 +1,11 @@
+- platform: group
+  name: LR Lamp Lights
+  entities:
+  - light.soft_white_hue_5_level_on_off
+  - light.soft_white_hue_6_level_on_off
+  - light.soft_white_hue_7_level_on_off
+
+- platform: group
+  name: DR Lamp Light
+  entities:
+  - light.soft_white_hue_8_level_on_off

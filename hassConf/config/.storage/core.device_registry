@@ -1,0 +1,317 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "9308b9fb0be3f14ef36e3326c9b41880"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "manufacturer": "Met.no",
+                "model": "Forecast",
+                "name": "Forecast",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "a73393cb8006fd61dfb3d3493e60c552",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "10eebcf995875a85fac255f726793e1d"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:21:2e:ff:ff:06:bf:ee"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:21:2e:ff:ff:06:bf:ee"
+                    ]
+                ],
+                "manufacturer": "ZHA",
+                "model": "deCONZ = dresden elektronik deCONZ protocol: ConBee I/II, RaspBee I/II",
+                "name": "Zigbee Coordinator",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "854cdb3ddb092a24b7ca8fa04b2c43ef",
+                "via_device_id": "854cdb3ddb092a24b7ca8fa04b2c43ef",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "10eebcf995875a85fac255f726793e1d"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:09:5a:60:6e"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:17:88:01:09:5a:60:6e"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "LWA003",
+                "name": "Philips LWA003",
+                "sw_version": "0x0100060c",
+                "entry_type": null,
+                "id": "3fb2594e2155dfde1fa2d324920e0412",
+                "via_device_id": "854cdb3ddb092a24b7ca8fa04b2c43ef",
+                "area_id": null,
+                "name_by_user": "Soft White Hue 1",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "10eebcf995875a85fac255f726793e1d"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:09:55:e3:bd"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:17:88:01:09:55:e3:bd"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "LWA003",
+                "name": "Philips LWA003",
+                "sw_version": "0x0100060c",
+                "entry_type": null,
+                "id": "2a6fa5c1a5b0acb1cc6a82b519333117",
+                "via_device_id": "854cdb3ddb092a24b7ca8fa04b2c43ef",
+                "area_id": null,
+                "name_by_user": "Soft White Hue 2",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "10eebcf995875a85fac255f726793e1d"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:09:55:d1:d6"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:17:88:01:09:55:d1:d6"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "LWA003",
+                "name": "Philips LWA003",
+                "sw_version": "0x0100060c",
+                "entry_type": null,
+                "id": "125c689b30786239f6593423dbfb9354",
+                "via_device_id": "854cdb3ddb092a24b7ca8fa04b2c43ef",
+                "area_id": null,
+                "name_by_user": "Soft White Hue 3",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "10eebcf995875a85fac255f726793e1d"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:09:5a:ed:7b"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:17:88:01:09:5a:ed:7b"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "LWA003",
+                "name": "Philips LWA003",
+                "sw_version": "0x0100060c",
+                "entry_type": null,
+                "id": "bb91b468bda51aac331527592186c97e",
+                "via_device_id": "854cdb3ddb092a24b7ca8fa04b2c43ef",
+                "area_id": null,
+                "name_by_user": "Soft White Hue 4",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "10eebcf995875a85fac255f726793e1d"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:09:5c:12:fd"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:17:88:01:09:5c:12:fd"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "LWA003",
+                "name": "Philips LWA003",
+                "sw_version": "0x0100060c",
+                "entry_type": null,
+                "id": "5245f0981b32bf1b0e276c3a277ffbae",
+                "via_device_id": "854cdb3ddb092a24b7ca8fa04b2c43ef",
+                "area_id": null,
+                "name_by_user": "Soft White Hue 5",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "10eebcf995875a85fac255f726793e1d"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:09:5c:12:e6"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:17:88:01:09:5c:12:e6"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "LWA003",
+                "name": "Philips LWA003",
+                "sw_version": "0x0100060c",
+                "entry_type": null,
+                "id": "aefb790b63c281c6515ad552bb51515f",
+                "via_device_id": "854cdb3ddb092a24b7ca8fa04b2c43ef",
+                "area_id": null,
+                "name_by_user": "Soft White Hue 6",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "10eebcf995875a85fac255f726793e1d"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:09:56:a8:fb"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:17:88:01:09:56:a8:fb"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "LWA003",
+                "name": "Philips LWA003",
+                "sw_version": "0x0100060c",
+                "entry_type": null,
+                "id": "fc39d83bc07e446cdbe9faabe3b60662",
+                "via_device_id": "854cdb3ddb092a24b7ca8fa04b2c43ef",
+                "area_id": null,
+                "name_by_user": "Soft White Hue 7",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "10eebcf995875a85fac255f726793e1d"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:17:88:01:09:5c:16:89"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:17:88:01:09:5c:16:89"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "LWA003",
+                "name": "Philips LWA003",
+                "sw_version": "0x0100060c",
+                "entry_type": null,
+                "id": "989f8e406ffbeb662f80fb69aee1454a",
+                "via_device_id": "854cdb3ddb092a24b7ca8fa04b2c43ef",
+                "area_id": null,
+                "name_by_user": "Soft White Hue 8",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "4b69e5a20204f1cc4d9ba91231609aeb"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "sw_version": "1.11.3",
+                "entry_type": "service",
+                "id": "8b88db37b0cbe65318da4b08f43c91fe",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "50085db2659b90d2afa986ebfa707262"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "942A99ED-B534-4C0C-8F29-7FCA0B647B5B"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone12,5",
+                "name": "iPhone",
+                "sw_version": "14.4",
+                "entry_type": null,
+                "id": "e7c88d0b1fed1f7dd278837ff5580e45",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}

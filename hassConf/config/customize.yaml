@@ -1,0 +1,17 @@
+light.kitchen_ceiling_lights:
+  friendly_name: "Ceiling Lights"
+  icon: mdi:lightbulb-group-outline
+light.lr_lamp_lights:
+  friendly_name: "Lamp Lights"
+  icon: mdi:lightbulb-group-outline
+light.dr_lamp_light:
+  friendly_name: "Lamp Light"
+  icon: mdi:lightbulb-outline
+
+
+group.Kitchen_group:
+  control: hidden
+group.LR_group:
+  control: hidden
+group.DR_group:
+  control: hidden

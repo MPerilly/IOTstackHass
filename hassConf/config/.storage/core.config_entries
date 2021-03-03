@@ -1,0 +1,91 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "9308b9fb0be3f14ef36e3326c9b41880",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "onboarding",
+                "connection_class": "cloud_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "10eebcf995875a85fac255f726793e1d",
+                "version": 2,
+                "domain": "zha",
+                "title": "/dev/serial/by-id/usb-dresden_elektronik_ingenieurtechnik_GmbH_ConBee_II_DE2411505-if00",
+                "data": {
+                    "device": {
+                        "path": "/dev/serial/by-id/usb-dresden_elektronik_ingenieurtechnik_GmbH_ConBee_II_DE2411505-if00"
+                    },
+                    "radio_type": "deconz"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "local_push",
+                "unique_id": null
+            },
+            {
+                "entry_id": "4b69e5a20204f1cc4d9ba91231609aeb",
+                "version": 1,
+                "domain": "hacs",
+                "title": "",
+                "data": {
+                    "token": "b475d27c9ee67abeaf8e044940d4ada60d46b7e2"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "cloud_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "50085db2659b90d2afa986ebfa707262",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "iPhone",
+                "data": {
+                    "app_name": "Home Assistant",
+                    "os_version": "14.4",
+                    "app_id": "io.robbie.HomeAssistant",
+                    "manufacturer": "Apple",
+                    "app_version": "2021.2.2 (2021.55)",
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+                        "push_token": "fUbSS75BsUTbgXmiGXEJ6I:APA91bEgpHmoNkJsaTCL1y_WMyXmk5bQ199nu8dIFEEgJ7YdCD0fsYE-JMK1kp64uruBTr8e7rz0UZ508UuNiOhhM-TKI31NmAjuBuWMuLAwOvG-PFYD8b5wKUcRz6ZnPVl02fp4TuMQ"
+                    },
+                    "device_name": "iPhone",
+                    "device_id": "942A99ED-B534-4C0C-8F29-7FCA0B647B5B",
+                    "model": "iPhone12,5",
+                    "os_name": "iOS",
+                    "supports_encryption": true,
+                    "webhook_id": "1906e363187ee56fa71313abc8c3af03e6aa609ec45f6e9114a824f0f841c36f",
+                    "secret": "01d06765bda2216b19aa1567cb90397b08edc8d59c632357cd36e7047d215724",
+                    "user_id": "e7a5ea1b5e3a473981d716ca21e0380e"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "registration",
+                "connection_class": "cloud_push",
+                "unique_id": "io.robbie.HomeAssistant-942A99ED-B534-4C0C-8F29-7FCA0B647B5B"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+Downstairs_group:
+  name: "Downstairs"
+  entities:
+    - group.Kitchen_group
+    - group.LR_group
+    - group.DR_group
+
+
+Kitchen_group:
+  name: "Kitchen"
+  entities:
+    - light.kitchen_ceiling_lights
+
+LR_group:
+  name: "Living Room"
+  entities:
+    - light.lr_lamp_lights
+
+DR_group:
+  name: "Dining Room"
+  entities:
+    - light.dr_lamp_light

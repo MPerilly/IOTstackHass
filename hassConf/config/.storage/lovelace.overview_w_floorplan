@@ -1,0 +1,206 @@
+{
+    "version": 1,
+    "key": "lovelace.overview_w_floorplan",
+    "data": {
+        "config": {
+            "title": "Home",
+            "views": [
+                {
+                    "path": "default_view",
+                    "title": "Home",
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "light.soft_white_hue_8_level_on_off"
+                            ],
+                            "title": "Bedroom"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "light.soft_white_hue_1_level_on_off",
+                                "light.soft_white_hue_2_level_on_off",
+                                "light.soft_white_hue_3_level_on_off",
+                                "light.soft_white_hue_4_level_on_off"
+                            ],
+                            "title": "Kitchen"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "light.soft_white_hue_5_level_on_off",
+                                "light.soft_white_hue_6_level_on_off",
+                                "light.soft_white_hue_7_level_on_off"
+                            ],
+                            "title": "Living Room"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "light.kitchen_lights_zha_group_0x0002",
+                                "light.living_room_lamp_zha_group_0x0003",
+                                "sensor.hacs"
+                            ],
+                            "title": "Office"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "light.soft_white_hue_1_level_on_off",
+                                "light.soft_white_hue_2_level_on_off",
+                                "light.soft_white_hue_3_level_on_off",
+                                "light.soft_white_hue_4_level_on_off"
+                            ],
+                            "title": "Kitchen Lights",
+                            "show_header_toggle": true
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "binary_sensor.updater"
+                            ],
+                            "title": "Binary sensor"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "person.michael_perillo"
+                            ],
+                            "title": "Person"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "sun.sun"
+                            ],
+                            "title": "Sun"
+                        },
+                        {
+                            "type": "weather-forecast",
+                            "entity": "weather.home",
+                            "show_forecast": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Floorplan",
+                    "path": "floorplan",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "custom:floorplan-card",
+                            "full_height": true,
+                            "config": {
+                                "image": "/local/floorplan/examples/home/home.svg",
+                                "stylesheet": "/local/floorplan/examples/home/home.css",
+                                "log_level": "info",
+                                "console_log_level": "info",
+                                "defaults": {
+                                    "hover_action": "hover-info",
+                                    "tap_action": "more-info"
+                                },
+                                "rules": [
+                                    {
+                                        "entity": "light.garage",
+                                        "element": "light.garage",
+                                        "state_action": {
+                                            "action": "call-service",
+                                            "service": "floorplan.image_set",
+                                            "service_data": "/local/floorplan/examples/home/light_${entity.state}.svg"
+                                        },
+                                        "tap_action": "toggle"
+                                    },
+                                    {
+                                        "entity": "light.garage",
+                                        "element": "light.garage.button",
+                                        "state_action": {
+                                            "action": "call-service",
+                                            "service": "floorplan.class_set",
+                                            "service_data": "button-${entity.state}"
+                                        },
+                                        "tap_action": {
+                                            "action": "call-service",
+                                            "service": "homeassistant.toggle"
+                                        }
+                                    },
+                                    {
+                                        "entity": "light.garage",
+                                        "element": "light.garage.text",
+                                        "state_action": {
+                                            "action": "call-service",
+                                            "service": "floorplan.text_set",
+                                            "service_data": "${entity.state}"
+                                        },
+                                        "tap_action": false
+                                    },
+                                    {
+                                        "entity": "switch.living_area_fan",
+                                        "tap_action": false,
+                                        "state_action": {
+                                            "action": "call-service",
+                                            "service": "floorplan.class_set",
+                                            "service_data": {
+                                                "class": "${(entity.state === \"on\") ? \"spinning\" : \"\"}"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "entity": "switch.living_area_fan",
+                                        "element": "switch.living_area_fan.button",
+                                        "state_action": {
+                                            "action": "call-service",
+                                            "service": "floorplan.class_set",
+                                            "service_data": "button-${entity.state}"
+                                        },
+                                        "hold_action": {
+                                            "action": "call-service",
+                                            "service": "homeassistant.toggle",
+                                            "service_data": {
+                                                "entity_id": "switch.living_area_fan"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "entity": "switch.living_area_fan",
+                                        "element": "switch.living_area_fan.text",
+                                        "state_action": {
+                                            "action": "call-service",
+                                            "service": "floorplan.text_set",
+                                            "service_data": "${entity.state}"
+                                        },
+                                        "tap_action": false
+                                    },
+                                    {
+                                        "entity": "camera.zagreb_ban_jelacic_square",
+                                        "state_action": {
+                                            "action": "call-service",
+                                            "service": "floorplan.image_set",
+                                            "service_data": {
+                                                "image": "${entity.attributes.entity_picture}",
+                                                "image_refresh_interval": 10
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "entities": [
+                                            "binary_sensor.main_bedroom",
+                                            "binary_sensor.living_area"
+                                        ],
+                                        "state_action": {
+                                            "action": "call-service",
+                                            "service": "floorplan.style_set",
+                                            "service_data": {
+                                                "style": "fill: ${ entity.state === \"on\" ? \"#F9D27C\" : \"#7CB1F9\" }; transition: ${ entity.state === \"off\" ? \"fill 5s ease\" : \"\" };\n"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

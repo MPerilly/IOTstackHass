@@ -1,0 +1,25 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+light:
+  - platform: group
+    name: Kitchen Ceiling Lights
+    entities:
+    - light.soft_white_hue_1_level_on_off
+    - light.soft_white_hue_2_level_on_off
+    - light.soft_white_hue_3_level_on_off
+    - light.soft_white_hue_4_level_on_off
+light groups: !include light-groups.yaml
+
+
+homeassistant:
+  customize: !include customize.yaml

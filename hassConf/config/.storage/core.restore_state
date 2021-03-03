@@ -1,0 +1,363 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.michael_perillo",
+                "state": "unknown",
+                "attributes": {
+                    "editable": true,
+                    "id": "michael_perillo",
+                    "source": "person.michael_perillo",
+                    "user_id": "3b2ee398133e4311af37e6508098c3e5",
+                    "friendly_name": "Michael Perillo"
+                },
+                "last_changed": "2021-03-03T15:52:48.047696+00:00",
+                "last_updated": "2021-03-03T15:52:48.047696+00:00",
+                "context": {
+                    "id": "e368f669907038f2612b9396dd2650c2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-03-03T15:52:54.867867+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.iphone",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "battery_level": 20,
+                    "latitude": 38.839447021484375,
+                    "longitude": -77.31344281226818,
+                    "gps_accuracy": 65,
+                    "altitude": 132.49261856079102,
+                    "vertical_accuracy": 10,
+                    "friendly_name": "iPhone"
+                },
+                "last_changed": "2021-03-03T15:52:52.479110+00:00",
+                "last_updated": "2021-03-03T15:52:52.479110+00:00",
+                "context": {
+                    "id": "dd862c6322e415b42eb416bcbe07d603",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-03-03T15:52:54.867867+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.soft_white_hue_1_level_on_off",
+                "state": "off",
+                "attributes": {
+                    "off_brightness": null,
+                    "friendly_name": "Soft White Hue 1 level, on_off",
+                    "supported_features": 41
+                },
+                "last_changed": "2021-03-03T15:51:10.735121+00:00",
+                "last_updated": "2021-03-03T15:51:10.735121+00:00",
+                "context": {
+                    "id": "d25bbc7e55f8e1cdca9d12932baecd9e",
+                    "parent_id": null,
+                    "user_id": "3b2ee398133e4311af37e6508098c3e5"
+                }
+            },
+            "last_seen": "2021-03-03T15:52:38.296731+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.soft_white_hue_2_level_on_off",
+                "state": "off",
+                "attributes": {
+                    "off_brightness": null,
+                    "friendly_name": "Soft White Hue 2 level, on_off",
+                    "supported_features": 41
+                },
+                "last_changed": "2021-03-03T15:51:10.715816+00:00",
+                "last_updated": "2021-03-03T15:51:10.715816+00:00",
+                "context": {
+                    "id": "d25bbc7e55f8e1cdca9d12932baecd9e",
+                    "parent_id": null,
+                    "user_id": "3b2ee398133e4311af37e6508098c3e5"
+                }
+            },
+            "last_seen": "2021-03-03T15:52:38.296731+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.soft_white_hue_3_level_on_off",
+                "state": "off",
+                "attributes": {
+                    "off_brightness": null,
+                    "friendly_name": "Soft White Hue 3 level, on_off",
+                    "supported_features": 41
+                },
+                "last_changed": "2021-03-03T15:51:10.753431+00:00",
+                "last_updated": "2021-03-03T15:51:10.753431+00:00",
+                "context": {
+                    "id": "d25bbc7e55f8e1cdca9d12932baecd9e",
+                    "parent_id": null,
+                    "user_id": "3b2ee398133e4311af37e6508098c3e5"
+                }
+            },
+            "last_seen": "2021-03-03T15:52:38.296731+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.soft_white_hue_4_level_on_off",
+                "state": "off",
+                "attributes": {
+                    "off_brightness": null,
+                    "friendly_name": "Soft White Hue 4 level, on_off",
+                    "supported_features": 41
+                },
+                "last_changed": "2021-03-03T15:51:10.637779+00:00",
+                "last_updated": "2021-03-03T15:51:10.637779+00:00",
+                "context": {
+                    "id": "d25bbc7e55f8e1cdca9d12932baecd9e",
+                    "parent_id": null,
+                    "user_id": "3b2ee398133e4311af37e6508098c3e5"
+                }
+            },
+            "last_seen": "2021-03-03T15:52:38.296731+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.soft_white_hue_5_level_on_off",
+                "state": "off",
+                "attributes": {
+                    "off_brightness": null,
+                    "friendly_name": "Soft White Hue 5 level, on_off",
+                    "supported_features": 41
+                },
+                "last_changed": "2021-03-03T15:51:08.282429+00:00",
+                "last_updated": "2021-03-03T15:51:08.282429+00:00",
+                "context": {
+                    "id": "afdb12a71045a3d60adb0bb405e65abb",
+                    "parent_id": null,
+                    "user_id": "3b2ee398133e4311af37e6508098c3e5"
+                }
+            },
+            "last_seen": "2021-03-03T15:52:38.296731+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.soft_white_hue_6_level_on_off",
+                "state": "off",
+                "attributes": {
+                    "off_brightness": null,
+                    "friendly_name": "Soft White Hue 6 level, on_off",
+                    "supported_features": 41
+                },
+                "last_changed": "2021-03-03T15:51:08.240401+00:00",
+                "last_updated": "2021-03-03T15:51:08.240401+00:00",
+                "context": {
+                    "id": "afdb12a71045a3d60adb0bb405e65abb",
+                    "parent_id": null,
+                    "user_id": "3b2ee398133e4311af37e6508098c3e5"
+                }
+            },
+            "last_seen": "2021-03-03T15:52:38.296731+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.soft_white_hue_7_level_on_off",
+                "state": "off",
+                "attributes": {
+                    "off_brightness": null,
+                    "friendly_name": "Soft White Hue 7 level, on_off",
+                    "supported_features": 41
+                },
+                "last_changed": "2021-03-03T15:51:08.274833+00:00",
+                "last_updated": "2021-03-03T15:51:08.274833+00:00",
+                "context": {
+                    "id": "afdb12a71045a3d60adb0bb405e65abb",
+                    "parent_id": null,
+                    "user_id": "3b2ee398133e4311af37e6508098c3e5"
+                }
+            },
+            "last_seen": "2021-03-03T15:52:38.296731+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.soft_white_hue_8_level_on_off",
+                "state": "off",
+                "attributes": {
+                    "off_brightness": null,
+                    "friendly_name": "Soft White Hue 8 level, on_off",
+                    "supported_features": 41
+                },
+                "last_changed": "2021-03-03T15:51:05.611601+00:00",
+                "last_updated": "2021-03-03T15:51:05.611601+00:00",
+                "context": {
+                    "id": "a5549812de25900145e910be455823b1",
+                    "parent_id": null,
+                    "user_id": "3b2ee398133e4311af37e6508098c3e5"
+                }
+            },
+            "last_seen": "2021-03-03T15:52:38.296731+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.philips_lwa003_6e605a09_level_on_off",
+                "state": "on",
+                "attributes": {
+                    "brightness": 254,
+                    "off_brightness": null,
+                    "friendly_name": "Philips LWA003 6e605a09 level, on_off",
+                    "supported_features": 41
+                },
+                "last_changed": "2021-03-02T15:15:04.460109+00:00",
+                "last_updated": "2021-03-02T15:15:04.460109+00:00",
+                "context": {
+                    "id": "bc80e9c74bffaef512b099a5961a0c13",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-03-02T15:15:33.982412+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.philips_lwa003_bde35509_level_on_off",
+                "state": "on",
+                "attributes": {
+                    "brightness": 254,
+                    "off_brightness": null,
+                    "friendly_name": "Philips LWA003 bde35509 level, on_off",
+                    "supported_features": 41
+                },
+                "last_changed": "2021-03-02T15:17:13.193310+00:00",
+                "last_updated": "2021-03-02T15:17:13.193310+00:00",
+                "context": {
+                    "id": "fb2069a3a7c2f13848cd5c3777aff96a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-03-02T15:17:21.393773+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.philips_lwa003_d6d15509_level_on_off",
+                "state": "on",
+                "attributes": {
+                    "brightness": 254,
+                    "off_brightness": null,
+                    "friendly_name": "Philips LWA003 d6d15509 level, on_off",
+                    "supported_features": 41
+                },
+                "last_changed": "2021-03-02T15:18:17.306512+00:00",
+                "last_updated": "2021-03-02T15:18:17.306512+00:00",
+                "context": {
+                    "id": "5f3ccaeac72956dc7cbe72dd4146fc08",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-03-02T15:18:32.420398+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.philips_lwa003_7bed5a09_level_on_off",
+                "state": "on",
+                "attributes": {
+                    "brightness": 254,
+                    "off_brightness": null,
+                    "friendly_name": "Philips LWA003 7bed5a09 level, on_off",
+                    "supported_features": 41
+                },
+                "last_changed": "2021-03-02T15:19:16.864025+00:00",
+                "last_updated": "2021-03-02T15:19:16.864025+00:00",
+                "context": {
+                    "id": "65ac0affbfcd9f4c043831cecb48a720",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-03-02T15:19:25.115593+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.philips_lwa003_fd125c09_level_on_off",
+                "state": "on",
+                "attributes": {
+                    "brightness": 254,
+                    "off_brightness": null,
+                    "friendly_name": "Philips LWA003 fd125c09 level, on_off",
+                    "supported_features": 41
+                },
+                "last_changed": "2021-03-02T15:19:55.049209+00:00",
+                "last_updated": "2021-03-02T15:19:55.049209+00:00",
+                "context": {
+                    "id": "cbb5b72bb46d884b2e69121288ea9e03",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-03-02T15:20:06.201242+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.philips_lwa003_e6125c09_level_on_off",
+                "state": "on",
+                "attributes": {
+                    "brightness": 254,
+                    "off_brightness": null,
+                    "friendly_name": "Philips LWA003 e6125c09 level, on_off",
+                    "supported_features": 41
+                },
+                "last_changed": "2021-03-02T15:20:36.140013+00:00",
+                "last_updated": "2021-03-02T15:20:36.140013+00:00",
+                "context": {
+                    "id": "78bd214b4b5765d7cc653d3ee44b2849",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-03-02T15:20:45.811216+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.philips_lwa003_fba85609_level_on_off",
+                "state": "on",
+                "attributes": {
+                    "brightness": 254,
+                    "off_brightness": null,
+                    "friendly_name": "Philips LWA003 fba85609 level, on_off",
+                    "supported_features": 41
+                },
+                "last_changed": "2021-03-02T15:21:20.119141+00:00",
+                "last_updated": "2021-03-02T15:21:20.119141+00:00",
+                "context": {
+                    "id": "32c750350943e0ee181d47a0358799d4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-03-02T15:21:26.654155+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.philips_lwa003_89165c09_level_on_off",
+                "state": "on",
+                "attributes": {
+                    "brightness": 254,
+                    "off_brightness": null,
+                    "friendly_name": "Philips LWA003 89165c09 level, on_off",
+                    "supported_features": 41
+                },
+                "last_changed": "2021-03-02T15:21:45.766997+00:00",
+                "last_updated": "2021-03-02T15:21:45.766997+00:00",
+                "context": {
+                    "id": "9804f46403c2c9481db2f79c3dd2025d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-03-02T15:21:53.191443+00:00"
+        }
+    ]
+}
